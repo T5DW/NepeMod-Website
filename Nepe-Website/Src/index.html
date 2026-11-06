@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a0c">
+  <meta name="description" content="Nepe-Mod — A Client To Make Blood Strike Better!">
+  <title>Nepe-Mod — Blood Strike PC Client</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+    :root{color-scheme:dark;font-family:Inter,Arial,sans-serif;background:#090a0c;color:#f6f6f7}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;overflow-x:hidden;background:radial-gradient(ellipse 70% 60% at 70% 40%,#351216 0%,transparent 62%),#090a0c}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background:repeating-linear-gradient(90deg,transparent 0 93px,#fff 94px,transparent 95px),repeating-linear-gradient(0deg,transparent 0 93px,#fff 94px,transparent 95px);mask-image:linear-gradient(90deg,transparent,#000,transparent)}
+    .shell{max-width:1440px;margin:auto;min-height:100vh;display:flex;flex-direction:column;position:relative;padding:0 clamp(24px,6vw,100px)}
+    header{height:92px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff1c}
+    .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:27px;font-weight:900;letter-spacing:1px}
+    .mark{display:grid;place-items:center;width:41px;height:41px;background:#ec303c;color:white;clip-path:polygon(0 0,80% 0,100% 20%,100% 100%,20% 100%,0 80%);font-size:25px;font-weight:900}
+    .nav-pill{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:2.3px;color:#ff686d;border:1px solid #ef3d4859;background:#ec303c0c;padding:12px 18px}
+    nav{display:flex;align-items:center;gap:clamp(12px,3vw,34px)}nav a{color:#bdbfc5;text-decoration:none;font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}nav a:hover,nav a:focus-visible{color:#ff545e}
+    main{flex:1;display:flex;align-items:center;min-height:610px;position:relative}
+    .hero{position:relative;z-index:1;width:100%;padding:90px 0 115px}
+    .eyebrow{display:flex;align-items:center;gap:12px;font-size:12px;letter-spacing:3.7px;text-transform:uppercase;font-weight:800;color:#e9414b;margin-bottom:24px}
+    .eyebrow:before{content:"";display:block;width:36px;height:3px;background:#e9414b}
+    h1{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(100px,18vw,250px);font-weight:900;line-height:.75;letter-spacing:-.048em;text-transform:uppercase;margin:0 0 40px;text-shadow:0 12px 45px #0006}
+    h1 span{color:#ee3440}
+    .tagline{font-family:'Barlow Condensed',Impact,sans-serif;font-weight:700;font-size:clamp(30px,4.5vw,65px);line-height:1.1;letter-spacing:.005em;text-transform:uppercase;margin:0 0 30px;max-width:760px}
+    .tagline em{font-style:normal;color:#ee3440}
+    .meta{font-size:13px;letter-spacing:2.2px;text-transform:uppercase;color:#8c8f96;font-weight:700}
+    .slash{position:absolute;width:32vw;height:120vh;right:7%;top:-10%;transform:skewX(-25deg);background:linear-gradient(180deg,#ff3b4800,#e4243028 46%,#e4243000);border-left:1px solid #ed313b25;pointer-events:none}
+    .backdrop{position:absolute;right:-7%;top:45%;transform:translateY(-50%) rotate(-90deg);font-family:'Barlow Condensed',sans-serif;font-size:clamp(100px,20vw,280px);font-weight:900;letter-spacing:-.04em;color:#ffffff06;white-space:nowrap;pointer-events:none}
+    footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:25px 0 33px;border-top:1px solid #ffffff1c;color:#777b83;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px}
+    footer strong{color:#e33d48}
+    @media(max-width:600px){header{height:76px}.brand{font-size:22px}.mark{width:34px;height:34px}nav{gap:12px}nav a{font-size:10px;letter-spacing:0}.nav-pill{display:none}.hero{padding:90px 0}h1{font-size:clamp(75px,20vw,120px);margin-bottom:32px}.tagline{font-size:37px}.meta{line-height:1.7}footer{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+ <div class="shell">
+  <header><a class="brand" href="/" aria-label="Nepe-Mod home"><span class="mark">N</span> NEPE-MOD</a><nav aria-label="Main navigation"><a href="/devs.html">Devs</a><a href="/contact.html">Contact Us</a></nav><span class="nav-pill">BLOOD STRIKE / PC</span></header>
+  <main><div class="slash"></div><div class="backdrop" aria-hidden="true">NEPE</div><section class="hero" aria-labelledby="hero-heading"><div class="eyebrow">Introducing the client</div><h1 id="hero-heading">NEPE<span>-</span>MOD</h1><p class="tagline">A CLIENT TO MAKE<br><em>BLOOD STRIKE</em> BETTER!</p><div class="meta">Built for Blood Strike PC</div></section></main>
+  <footer><span><strong>NEPE-MOD</strong> / BLOOD STRIKE PC CLIENT</span><span>UNOFFICIAL COMMUNITY PROJECT</span></footer>
+ </div>
+</body>
+</html>
